@@ -14,7 +14,7 @@ button{
     margin: 10px;
     background-color: lightblue;
 }
-span{
+#score{
     font-family: cursive;
     color: red;
 }
