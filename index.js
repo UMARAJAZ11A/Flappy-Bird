@@ -39,7 +39,10 @@ function reStart()
                     400 - stickTop[2] - stickYgap[2] , 400 - stickTop[3] - stickYgap[3] ,
                     400 - stickTop[4] - stickYgap[4]];
 
+    
     birdDownSpeed = 1 , score = 0;
+
+    document.getElementById("score").innerHTML = score;
     ctx.fillStyle = "white";
     ctx.fillRect(0,0,600,400);  
     ctx.fillStyle = "red";
